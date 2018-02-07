@@ -186,7 +186,7 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>RestyServer</warName>
+						<warName>restyserver</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
@@ -214,6 +214,6 @@
 				</plugin>
 			</plugins>
 
-		<finalName>RestyServer</finalName>
+		<finalName>restyserver</finalName>
 	</build>
 </project>
