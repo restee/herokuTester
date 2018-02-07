@@ -5,7 +5,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mexaco</groupId>
-	<artifactId>Mexaco</artifactId>
+	<artifactId>test</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 
@@ -186,7 +186,7 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>restyserver</warName>
+						<warName>test</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
@@ -214,6 +214,6 @@
 				</plugin>
 			</plugins>
 
-		<finalName>restyserver</finalName>
+		<finalName>test</finalName>
 	</build>
 </project>
