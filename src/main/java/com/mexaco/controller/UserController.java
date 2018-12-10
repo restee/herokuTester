@@ -14,6 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class UserController {
 
+	@RequestMapping(method = RequestMethod.GET)
+	public String asdf123123() {
+		return "Love you babe!";
+	}
 	
 	@RequestMapping(value = "/test/", method = RequestMethod.GET)
 	public String asdf() {
